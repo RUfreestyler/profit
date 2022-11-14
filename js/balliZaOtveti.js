@@ -1,17 +1,17 @@
 let professions = 
 [
-    ['Веб-дизайнер',0],             //0
-    ['Системный администратор',0],//1
-    ['Cистемный программист',0],   //2
-    ['Программист игр',0],          //3
-    ['Тестировщик',0],              //4
-    ['Разработчик ПО для электроники',0],//5
-    ['Специалист по безопасности',0],//6
-    ['Системный менеджер',0],          //7
-    ['Сценарист игр',0],            //8
-    ['Администратор БД',0],         //9
-    ['Дата аналитик',0],           //10
-    ['СЕО-специалист',0]            //11
+    ['Веб-дизайнер',0, 'prof1.html', 'pdfProfessions\\WEB-dizayner.pdf'],             //0
+    ['Системный администратор',0, 'prof2.html','pdfProfessions\\Sistemny_administrator.pdf'],//1
+    ['Cистемный программист',0, 'prof3.html','pdfProfessions\\Sistemny_programmist.pdf'],   //2
+    ['Программист игр',0, 'prof4.html','pdfProfessions\\Programmist_igr.pdf'],          //3
+    ['Тестировщик',0, 'prof5.html','pdfProfessions\\Testirovschik.pdf'],              //4
+    ['Разработчик ПО для электроники',0, 'prof6.html','pdfProfessions\\Razrabotchik_programm_dlya_personalnoy_elektroniki.pdf'],//5
+    ['Специалист по безопасности',0, 'prof7.html','pdfProfessions\\Spetsialist_po_bezopasnosti.pdf'], //6
+    ['Системный менеджер',0, 'prof8.html','pdfProfessions\\Sistemny_menedzher.pdf'],          //7
+    ['Сценарист игр',0, 'prof9.html','pdfProfessions\\Stsenarist_igr.pdf'],            //8
+    ['Администратор БД',0, 'prof10.html', 'pdfProfessions\\Administrator_bazy_dannykh.pdf'],        //9
+    ['Дата аналитик',0, 'prof11.html', 'pdfProfessions\\Data_Scientist.pdf'],           //10
+    ['СЕО-специалист',0, 'prof12.html', 'pdfProfessions\\SEO-spetsialist.pdf']            //11
 ]
 
 let allQuestions = 
@@ -124,6 +124,11 @@ function showResults(){
     }
     let profession = document.getElementById('profession');
     profession.insertAdjacentHTML('afterbegin', professions[indexOfMax][0]);
+    document.getElementById('lastButton1').classList.remove('hidden');
+    document.getElementById('lastButton2').classList.remove('hidden');
+    document.getElementById('lastButton1').href = professions[indexOfMax][2];
+    document.getElementById('lastButton2').href = professions[indexOfMax][3];
+
 }
 
 function getCheckedRadioValue(name) {

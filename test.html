@@ -23,14 +23,14 @@
           <!-- 1 вопрос -->
           <div class="questionAll question1">
 				    <h1 class="intro__title">Вопрос 1. Почему именно сфера IT?</h1>
-            <input type="radio" id="choice1" name="answer1" value="1">Заработная плата</br>
-            <input type="radio" id="choice2" name="answer1" value="2">Работа с любимым другом-компьютером</br>
-            <input type="radio" id="choice3" name="answer1" value="3">Интерес к устройству ПК: как это работает? какие составляющие есть? за что они отвечают?</br>
-            <input type="radio" id="choice4" name="answer1" value="4">Моя страсть - компьютерные игры</br>
-            <input type="radio" id="choice5" name="answer1" value="5">Делать мир и сайты красивее</br>
-            <input type="radio" id="choice6" name="answer1" value="6">Решать сложные задачи - моя стихия</br>
-            <input type="radio" id="choice7" name="answer1" value="7">Хочу вводить новые тренды технологий в жизнь</br>
-            <input type="radio" id="choice8" name="answer1" value="8">Потому что часто в жизни мне говорят: "Тыж программист"</br>
+            <input type="radio" name="answer1" value="1">Заработная плата</br>
+            <input type="radio" name="answer1" value="2">Работа с любимым другом-компьютером</br>
+            <input type="radio" name="answer1" value="3">Интерес к устройству ПК: как это работает? какие составляющие есть? за что они отвечают?</br>
+            <input type="radio" name="answer1" value="4">Моя страсть - компьютерные игры</br>
+            <input type="radio" name="answer1" value="5">Делать мир и сайты красивее</br>
+            <input type="radio" name="answer1" value="6">Решать сложные задачи - моя стихия</br>
+            <input type="radio" name="answer1" value="7">Хочу вводить новые тренды технологий в жизнь</br>
+            <input type="radio" name="answer1" value="8">Потому что часто в жизни мне говорят: "Тыж программист"</br>
 					</div>
           <!-- 2 вопрос -->
           <div class="questionAll question2 hidden">
@@ -79,33 +79,33 @@
             <input type="radio" name="answer7" value="3">Придумывать<br>
           </div>
           <!-- 8 вопрос -->
-          <div class="questionAll question8 hidden">
+          <!-- <div class="questionAll question8 hidden">
             <h1 class="intro__title">Какое бы вы хотели ваше будущее место работы?</h1>
             <input type="radio" name="answer8" value="1">НЕТ БАЛЛОВ, ДОРАБОТАТЬ<br>
             <input type="radio" name="answer8" value="2">НЕТ БАЛЛОВ, ДОРАБОТАТЬ<br>
             <input type="radio" name="answer8" value="3">НЕТ БАЛЛОВ, ДОРАБОТАТЬ<br>
             <input type="radio" name="answer8" value="4">НЕТ БАЛЛОВ, ДОРАБОТАТЬ<br>
-          </div>
+          </div> -->
           <!-- 9 вопрос -->
-          <div class="questionAll question9 hidden">
+          <div class="questionAll question8 hidden">
             <h1 class="intro__title">Какие высказывания вас характеризует?</h1>
-            <input type="radio" name="answer9" value="1">Много работаешь, много заработаешь<br>
-            <input type="radio" name="answer9" value="2">Легкий путь, зачем усложнять?<br>
-            <input type="radio" name="answer9" value="3">Есть цель, иду к ней!<br>
-            <input type="radio" name="answer9" value="4">Легких путей не ищу!<br>
+            <input type="radio" name="answer8" value="1">Много работаешь, много заработаешь<br>
+            <input type="radio" name="answer8" value="2">Легкий путь, зачем усложнять?<br>
+            <input type="radio" name="answer8" value="3">Есть цель, иду к ней!<br>
+            <input type="radio" name="answer8" value="4">Легких путей не ищу!<br>
           </div>
           <!-- 10 вопрос -->
-          <div class="questionAll question10 hidden">
+          <div class="questionAll question9 hidden">
             <h1 class="intro__title">Что для вас предпочтительней?</h1>
-            <input type="radio" name="answer10" value="1">Делать проект в своем стиле, работать в своем режиме<br>
-            <input type="radio" name="answer10" value="2">Соблюдать правила, дедлайны, документацию<br>
-            <input type="radio" name="answer10" value="3">Оба варианта подходят для меня<br>
+            <input type="radio" name="answer9" value="1">Делать проект в своем стиле, работать в своем режиме<br>
+            <input type="radio" name="answer9" value="2">Соблюдать правила, дедлайны, документацию<br>
+            <input type="radio" name="answer9" value="3">Оба варианта подходят для меня<br>
           </div>
-          <button class="btn"  type="button" id="next">Следующий вопрос</button>
+          <button class="btn-next"  type="button" id="next">Следующий вопрос</button>
           <div class="hidden" id="results">
-            <h1>Ваша профессия <span id="profession"></span></h1>
+            <h1>Ваша профессия: <i><span id="profession"></span></i></h1>
           </div>
-          <a class="btn hidden" id="lastButton1" target="_blank">Узнать больше о профессии</a>
+          <a class="btn hidden" id="lastButton1" target="_blank">Узнать больше о профессии</a><br>
           <a class="btn hidden" download id="lastButton2" target="_blank">Скачать</a>
       </div>
     </div>

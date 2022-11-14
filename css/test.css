@@ -21,7 +21,37 @@ h6 {
 	margin: 0;
 }
 
- 
+input{
+	margin-bottom: 20px;
+}
+
+.btn-next{
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #724fff;
+	border-style: none;
+} 
+
+.btn{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 30px;
+	color: #0066ff;
+	display: inline-block;
+	padding-right: 8px;
+}
+
+.btn:hover {
+	color: #fff;
+	text-shadow: 0 0 5px #3333ff,
+	   0 0 10px #3333ff,
+	   0 0 20px #3333ff,
+	   0 0 30px #3333ff,
+	   0 0 40px #3333ff;
+}
+
 /* Container */
 .container {
 	width: 100%;

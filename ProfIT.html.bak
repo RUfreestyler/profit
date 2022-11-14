@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/itc-slider.css" rel="stylesheet">
-  <script src="js/itc-slider.js" defer></script>
+  <link href="itc-slider.css" rel="stylesheet">
+  <script src="itc-slider.js" defer></script>
   <link rel="shortcut icon" href="images/logo1.png">
   <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Yeon+Sung&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>ProfIT</title>
 </head>
 
@@ -104,7 +104,7 @@
 				<a href="prof5.html"><img src="images/prof5.png" alt="Web-дизайнер" width="350" height="350"></a>
 				<a href="prof6.html"><img src="images/prof6.png" alt="Data Scientist" width="350" height="350"></a>
 				<a href="prof7.html"><img src="images/prof7.png" alt="Системный программист" width="350" height="350"></a>
-				<a href="prof8.html"><img src="images/prof8.png" alt="Разработчик программ для персональной электроники" width="350" height="350"></a>
+				<a href="prof8.html"><img src="images/prof8.png" alt="Разработчики программ для персональной электроники" width="350" height="350"></a>
 				<a href="prof9.html"><img src="images/prof9.png" alt="Системный менеджер" width="350" height="350"></a>
 			</div>
 			<div class="margin2">

@@ -43,8 +43,11 @@
     <div class="container">
       <div class="intro__inner">
         <h1 class="intro__title">Ваш спутник в мир IT-индустрии</h1>
-
-        <a class="btn" href="test.html">Пройти тест</a>
+        <?php if(!isset($_COOKIE['user'])): ?>
+            <a class="btn" href="authorization.php">Пройти тест</a>
+        <?php else: ?>
+            <a class="btn" href="test.html">Пройти тест</a>
+        <?php endif; ?>
       </div>
 
     </div>

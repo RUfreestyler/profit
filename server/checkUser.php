@@ -17,7 +17,7 @@
         if($user['password_hash'] != md5($password))
         {
             //неверный пароль
-            header('Location: ../authorization.php');
+            exit('Неверный пароль.');
         }
         else
         {
@@ -29,7 +29,7 @@
     else
     {
         //такого пользователя не существует
-        header('Location: ../authorization.php');
+        exit('Такого пользователь ещё не зарегистрирован.');
     }
      
 ?>

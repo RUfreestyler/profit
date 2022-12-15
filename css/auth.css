@@ -13,12 +13,12 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: #37524d;
+  background-color: #000;
   transition: 0.5s;
 }
 
 body.active {
-  background-color: #c5ab97;
+  background-color: #000;
 }
 
 .container {
@@ -30,7 +30,7 @@ body.active {
 
 .block {
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #724fff;
   box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2);
 
   display: flex;
@@ -63,7 +63,7 @@ body.active {
 }
 
 .form-box {
-  background-color: white;
+  background-color: #ff7aba;
   height: 100%;
   width: 50%;
   box-shadow: 0 5px 45px rgba(0, 0, 0, 0.25);
@@ -132,13 +132,13 @@ body.active {
   border: none;
   cursor: pointer;
   font-size: inherit;
-  background-color: #37524d;
+  background-color: #724fff;
   color: #fff;
   padding: 10px 50px;
 }
 
 .form__btn_signup {
-  background-color: #c5ab97;
+  background-color: #724fff;
 }
 
 .form__forgot {
